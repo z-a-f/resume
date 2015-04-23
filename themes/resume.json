@@ -1,0 +1,221 @@
+{
+  "basics": {
+    "name": "Zafar Takhirov",
+    "label": "HW/SW Engineer",
+    "picture": "https://avatars3.githubusercontent.com/u/4216323?v=3&s=460",
+    "email": "cc.rafaz@zafar.cc",
+    "phone": "(857) 247-6589",
+    "website": "http://resume.zafar.cc",
+    "summary": "I am a 3rd year PhD student at Boston University, working towards my degree in Computer Engineering. While my work focuses on digital design and error mitigation, my non-work interests range widely from information theory (go Shannon!), quantum computing, grandfather paradox, Star Trek, Little Mermaid, \"why is the grass green?\", 1Q84, etc., etc., etc. If you want to talk about, well, anything - Just ping me",
+    "location": {
+      "address": "1883 Agnew Rd.",
+      "postalCode": "95054",
+      "city": "San Jose",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "zafartahirov",
+        "url": "https://github.com/zafartahirov"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "zafar-takhirov",
+        "url": "https://www.linkedin.com/in/zafartakhirov"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "RafazZ",
+        "url": "http://stackoverflow.com/users/3606192/rafazz"
+      },
+      {
+        "network": "Hackerrank",
+        "username": "RafazZ",
+        "url": "https://www.hackerrank.com/RafazZ"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Analog Devices, Inc.",
+      "position": "Mixed-Signal Verification Engineer",
+      "website": "http://www.analog.com/",
+      "startDate": "2014-02-15",
+      "endDate": "2015-02-15",
+      "summary": "Worked as part of the automotive group",
+      "highlights": [
+        "Was responsible for design verification of analog and digital blocks",
+        "Worked on 3 projects to develop and deploy UVM and real-number modeling environment",
+        "Participated in functional safety discussion (ISO 26262)"
+      ]
+    },
+    {
+      "company": "Analog Devices, Inc.",
+      "position": "Mixed-Signal Design Engineering Intern",
+      "website": "http://www.analog.com/",
+      "startDate": "2013-05-20",
+      "endDate": "2013-12-24",
+      "summary": "",
+      "highlights": [
+        "Implemented RNM system for simulation speed up (1000x in average)",
+        "Was involved in mixed-signal design flow",
+        "Co-developed calibration mechanism for a mixed-signal system"
+      ]
+    },
+    {
+      "company": "Boston University",
+      "position": "Research Assistant",
+      "website": "http://www.bu.edu/icsg/",
+      "startDate": "2011-09-01",
+      "summary": "Worked on several projects as part of ICSG group, including",
+      "highlights": [
+        "Error avoidance/mitigation in digital circuits",
+        "Error-correcting codes in deep-sub-micron technologies",
+        "Photonic interconnect architectures in manycore systems",
+        "Equalization in chip-to-chip interconnects"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Boston University",
+      "area": "Computer Engineering",
+      "studyType": "Ph.D",
+      "startDate": "2012-09-01",
+      "gpa": "3.5",
+      "courses": [
+        "Dissertation: Error Mitigation in Ultra-Low Power Many-Core Digital Systems"
+      ]
+    },
+    {
+      "institution": "Boston University",
+      "area": "Computer Engineering",
+      "studyType": "M.S.",
+      "startDate": "2009-09-01",
+      "endDate": "2012-05-24",
+      "gpa": "3.49",
+      "courses": [
+        "Advanced Digital Design",
+        "Computer Architecture",
+        "Design of Secure Computer Systems"
+      ]
+    },
+    {
+      "institution": "Russian-Tajik (Slavic) University",
+      "area": "Linguistics (German Languages)",
+      "studyType": "Specialist",
+      "startDate": "2003-09-01",
+      "endDate": "2008-05-24",
+      "gpa": "4.0",
+      "courses": [
+        "Thesis: Neologisms and Slang in German Languages"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Energy-efficient pass-transistor-logic using decision feedback equalization",
+      "publisher": "IEEE ISLPED'13",
+      "releaseDate": "2013-09-04",
+      "website": "http://dx.doi.org/10.1109/ISLPED.2013.6629319",
+      "summary": ""
+    },
+    {
+      "name": "A multi-layer approach to green computing: Designing energy-efficient digital circuits and manycore architectures",
+      "publisher": "IEEE IGCC'12",
+      "releaseDate": "2012-06-04",
+      "website": "http://dx.doi.org/10.1109/IGCC.2012.6322276",
+      "summary": ""
+    },
+    {
+      "name": "Error mitigation in digital logic using a feedback equalization with schmitt trigger (FEST) circuit",
+      "publisher": "IEEE ISQED'12",
+      "releaseDate": "2012-03-19",
+      "website": "http://dx.doi.org/10.1109/ISQED.2012.6187511",
+      "summary": ""
+    },
+    {
+      "name": "A preliminary look at error avoidance in digital logic via feedback equalization",
+      "publisher": "IEEE Allerton Conferece",
+      "releaseDate": "2011-09-28",
+      "website": "http://dx.doi.org/10.1109/Allerton.2011.6120329",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Master",
+      "keywords": [
+        "(System-)Verilog HDL",
+        "SPICE",
+        "C/C++",
+        "Python",
+        "Perl",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "FPGA/ASIC",
+      "level": "Master",
+      "keywords": [
+        "Power/Timing/Noise analysis",
+        "Formal verification",
+        "Verilog-to-Silicon"
+      ]
+    },
+    {
+      "name": "Web Dev",
+      "level": "Beginner",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "HTML5+CSS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Tajik",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Cats",
+        "Unicorns/Pixies/Fairies"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Soccer",
+        "Kickboxing",
+        "Snowboarding"
+      ]
+    }
+  ],
+  "references": []
+}
