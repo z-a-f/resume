@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Usage:
+#	generateHTML [themeName]
+
+if [ "$#" -ne 1 ]; then
+	echo "ERROR: Need exactly 1 parameter (theme name)... Exiting..."
+	exit 1
+fi
+
+# generate resume:
+resume export ${1}.html -t $1

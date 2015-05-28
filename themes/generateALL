@@ -1,0 +1,49 @@
+#!/bin/bash
+
+USAGE="Usage:
+	generateALL [--json|-j] <path/to/resume.json> [--list|-l] </path/to/themes> [--format|-f] <HTML|PDF>"
+
+# Default parameters:
+JSON="./resume.json"
+LIST="./themes.list"
+FORM="HTML"
+
+# Expecting exactly 6 arguments:
+if [ "$#" -ne 6 ]; then
+	echo "Expecting exaclty 6 parameters..."
+	echo -e "$USAGE"
+	exit 1
+fi
+
+while (($#)); do
+	case $1 in
+		-f|--format ) FORM="$2"
+					  ;;
+		-l|--list ) LIST="$PWD/$2"
+					;;
+		-j|--json ) JSON="$PWD/$2"
+					;;
+		* ) echo "Unknown parameter $1, exiting..."
+			exit 2
+	esac
+	shift 2
+done
+
+if [ "$FORM" != "PDF" ]; then
+	FORM=".html"
+	mkdir ./HTML
+	FOLDER="./HTML"
+else
+	FORM=".pdf"
+	mkdir PDF
+	FOLDER="./PDF"
+fi
+
+# Copy JSON file locally:
+cp $JSON ./resume.json
+
+# Open the list file:
+while read line; do
+	# echo $FOLDER/$line$FORM
+	resume export $FOLDER/$line$FORM -t $line
+done < $LIST
