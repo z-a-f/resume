@@ -5,3 +5,5 @@ themes/index.html
 
 
 *.bak
+build/*
+
