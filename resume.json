@@ -5,12 +5,12 @@
         "picture": "https://avatars3.githubusercontent.com/u/4216323?v=3&s=460",
         "email": "cc.rafaz@zafar.cc",
         "phone": "(617) 826-9666",
-        "website": "http://resume.zafar.cc",
-        "summary": "I am a 3rd year PhD student at Boston University, working towards my degree in Computer Engineering. While my work focuses on digital design and error mitigation, my non-work interests range widely from information theory (go Shannon!), quantum computing, grandfather paradox, Star Trek, Little Mermaid, \"why is the grass green?\", 1Q84, etc., etc., etc. If you want to talk about, well, anything - just ping me.",
+        "website": "http://blog.zafar.cc",
+        "summary": "I am a 4th year PhD student at Boston University, working towards my degree in Computer Engineering. While my work focuses on digital design,error mitigation, and machine learning, my non-work interests range widely from information theory (go Shannon!), quantum computing, grandfather paradox, Star Trek, Little Mermaid, \"why is the grass green?\", 1Q84, etc., etc., etc. If you want to talk about, well, anything - just ping me.",
         "location": {
             "address": "1883 Agnew Rd.",
             "postalCode": "95054",
-            "city": "San Jose",
+            "city": "Santa Clara",
             "countryCode": "US",
             "region": "California"
         },
@@ -31,26 +31,13 @@
                 "url": "http://stackoverflow.com/users/3606192/rafazz"
             },
             {
-                "network": "Hackerrank",
+                "network": "InterviewBit",
                 "username": "RafazZ",
-                "url": "https://www.hackerrank.com/RafazZ"
+                "url": "https://www.interviewbit.com/profile/RafazZ"
             }
         ]
     },
     "work": [
-        {
-            "company": "Avicennas Group, Inc.",
-            "position": "CTO",
-            "website": "http://avicennas.com/",
-            "startDate": "2015-05-25",
-            "summary": "Bringing the digital into the healthcare :)",
-            "highlights": [
-                "NodeJS/AngularJS/ExpressJS/MySQL - Which one doesn't belong? :)",
-                "Managing a team of many?",
-                "Being on coffee 80 hours a week!"
-            ]
-            
-        },
         {
             "company": "Boston University",
             "position": "Research Assistant",
@@ -63,6 +50,20 @@
                 "Photonic interconnect architectures in manycore systems",
                 "Equalization in chip-to-chip interconnects"
             ]
+        },
+        {
+            "company": "Avicennas Group, Inc.",
+            "position": "CTO",
+            "website": "http://avicennas.com/",
+            "startDate": "2015-05-25",
+            "endDate": "2016-02-01",
+            "summary": "Bringing the digital into the healthcare :)",
+            "highlights": [
+                "NodeJS/AngularJS/ExpressJS/MySQL - Which one doesn't belong? :)",
+                "Managing a team of many?",
+                "Being on coffee 80 hours a week!"
+            ]
+            
         },
         {
             "company": "Analog Devices, Inc.",
@@ -168,7 +169,6 @@
                 "SPICE",
                 "C/C++",
                 "Python",
-                "Perl",
                 "MATLAB"
             ]
         },
