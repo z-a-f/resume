@@ -248,6 +248,14 @@
                 "Kickboxing",
                 "Snowboarding"
             ]
+        },
+        {
+            "name": "Professional",
+            "keywords": [
+                "Machine Learning",
+                "High Performance Computing",
+                "Energy-Efficient Computing"
+            ]
         }
     ],
     "references": []
