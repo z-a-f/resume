@@ -5,8 +5,8 @@
         "picture": "https://avatars3.githubusercontent.com/u/4216323?v=3&s=460",
         "email": "cc.rafaz@zafar.cc",
         "phone": "(617) 826-9666",
-        "website": "http://blog.zafar.cc",
-        "summary": "I am a 4th year PhD student at Boston University, working towards my degree in Computer Engineering. While my work focuses on digital design,error mitigation, and machine learning, my non-work interests range widely from information theory (go Shannon!), quantum computing, grandfather paradox, Star Trek, Little Mermaid, \"why is the grass green?\", 1Q84, etc., etc., etc. If you want to talk about, well, anything - just ping me.",
+        "website": "http://zafar.cc",
+        "summary": "I am a 5th year PhD student at Boston University, working towards my degree in Computer Engineering. While my work focuses on digital design,error mitigation, and machine learning, my non-work interests range widely from information theory (go Shannon!), quantum computing, grandfather paradox, Star Trek, Little Mermaid, \"why is the grass green?\", 1Q84, etc., etc., etc. If you want to talk about, well, anything - just ping me.",
         "location": {
             "address": "1883 Agnew Rd.",
             "postalCode": "95054",
@@ -27,13 +27,18 @@
             },
             {
                 "network": "StackOverflow",
-                "username": "RafazZ",
+                "username": "SO",
                 "url": "http://stackoverflow.com/users/3606192/rafazz"
             },
             {
                 "network": "InterviewBit",
-                "username": "RafazZ",
+                "username": "IB",
                 "url": "https://www.interviewbit.com/profile/RafazZ"
+            },
+            {
+                "network": "PDF",
+                "username": "Download PDF",
+                "url": "resume.pdf"
             }
         ]
     },
@@ -45,9 +50,8 @@
             "startDate": "2011-09-01",
             "summary": "Worked on several projects as part of ICSG group, including",
             "highlights": [
+                "Energy-efficient Machine Learning Algorithms and implementation",
                 "Error avoidance/mitigation in digital circuits",
-                "Error-correcting codes in deep-sub-micron technologies",
-                "Photonic interconnect architectures in manycore systems",
                 "Equalization in chip-to-chip interconnects"
             ]
         },
@@ -60,7 +64,7 @@
             "summary": "Bringing the digital into the healthcare :)",
             "highlights": [
                 "NodeJS/AngularJS/ExpressJS/MySQL - Which one doesn't belong? :)",
-                "Managing a team of many?",
+                "Managing a team of 5 engineers",
                 "Being on coffee 80 hours a week!"
             ]
             
@@ -101,7 +105,7 @@
             "startDate": "2012-09-01",
             "gpa": "3.5",
             "courses": [
-                "Dissertation: Error Mitigation in Ultra-Low Power Many-Core Digital Systems"
+                "Dissertation: Designing Energy-Efficient Computing Systems using Equalization and Machine Learning"
             ]
         },
         {
@@ -131,6 +135,20 @@
     ],
     "awards": [],
     "publications": [
+        {
+            "name": "[Energy-Efficient Implementation of Random Forests]",
+            "publisher": "[Publication not Released -- pending]",
+            "releaseDate": "2016-12-31",
+            "website": "",
+            "summary": "Developed a novel energy-efficient scalable algorithm based on Random Forests."
+        },
+        {
+            "name": "Energy-Efficient Adaptive Classifier Design for Mobile Systems",
+            "publisher": "IEEE ISLPED'16",
+            "releaseDate": "2016-08-08",
+            "website": "http://dx.doi.org/10.1145/2934583.2934615",
+            "summary": "Implemented an algorithm that leverages the wide variability in data complexity to allow dynamic resource allocation in classification problems"
+        },
         {
             "name": "Energy-efficient pass-transistor-logic using decision feedback equalization",
             "publisher": "IEEE ISLPED'13",
@@ -165,11 +183,12 @@
             "name": "Programming",
             "level": "Master",
             "keywords": [
-                "(System-)Verilog HDL",
-                "SPICE",
                 "C/C++",
                 "Python",
-                "MATLAB"
+                "MATLAB",
+                "Ruby",
+                "(System-)Verilog HDL",
+                "Scala (Chisel))"
             ]
         },
         {
@@ -183,11 +202,12 @@
         },
         {
             "name": "Web Dev",
-            "level": "Beginner",
+            "level": "Intermediate",
             "keywords": [
                 "PHP",
                 "JavaScript",
-                "HTML5+CSS"
+                "HTML5+CSS",
+                "Rails"
             ]
         }
     ],
